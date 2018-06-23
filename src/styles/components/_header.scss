@@ -1,0 +1,11 @@
+.header {
+  &__logo {}
+
+  .navbar {
+    &__list {}
+    &__item {}
+    &__link {
+      &--active {}
+    }
+  }
+}

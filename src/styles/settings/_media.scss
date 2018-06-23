@@ -1,0 +1,15 @@
+$mobile: "(max-width: 767px)";
+$tablet: "(min-width: 768px) and (max-width: 1200px)";
+$tablet-mobile: "(max-width: 950px)";
+$desktop: "(min-width: 1200px) and (max-width: 1440px)";
+
+$mobile_break_point: $mobile;
+$tablet_break_point: $tablet;
+$desktop_break_point: $desktop;
+
+.mobile-only {
+  display: none;
+  @media #{$mobile_break_point} {
+    display: block;
+  }
+}
